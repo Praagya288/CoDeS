@@ -1,0 +1,42 @@
+* Positions Properties*
+
+Note : By default har element ke opar "Position: static" property applied hoti h ie 
+agar top left bottom right kidhar se bhi changes karne chahye to nahi kar skte
+or agar karege bhi code me to vo live server pr reflect nahi hoga 
+
+1. Position -> relative
+agar kisi bhi element pr "position: relative" property applied h to us element ko
+current window or current screen ke respectively kahi bhi shift kar skte h.
+note : for eg agar element x position pr placed h starting me or hamne usko 
+position relative property use karke shift kiya lets say y position pr to x position 
+pr uska area maintained he rhega 
+
+2. Position -> absolute
+
+
+
+note : position shift krega apne parent ke respect me 
+
+
+
+
+----------------------------Basics-------------------------------------
+
+1-
+vh = viewport height
+100 vh = jo abhi screen dikh rhi h uski puri height hogi
+
+2-
+display:flex
+to work on width , use justify content
+to work on height , use align-items
+
+3-
+Steps for smooth scrolling
+-attach loco scroll css 
+-attach locomotive scroll min js
+-some code from loco github for js 
+
+4-
+Steps for gsap
+-attach gsap
